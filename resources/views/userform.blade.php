@@ -8,7 +8,7 @@
     <title>Форма пользователя</title>
 </head>
 <body>
-<form action="" method="post">
+<form action="{{url('/storeform')}}" method="post">
     @csrf
     <div>
         <div>

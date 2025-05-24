@@ -8,3 +8,4 @@ Route::get('/', function () {
 });
 
 Route::get('/userform', [FormProcessor::class, 'index']);
+Route::post('/storeform', [FormProcessor::class, 'store'])->name('storeform');
